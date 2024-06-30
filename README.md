@@ -2,6 +2,8 @@
 
 Dataset and Codebase for "Shelf Management: a Deep Learning-Based system for shelf visual monitoring".
 
+[Paper](https://doi.org/10.1016/j.eswa.2024.124635)
+
 This code is about the recognition part. 
 
 For the detection part please refer to the original 
@@ -10,9 +12,9 @@ with [this](https://drive.google.com/file/d/1f9tRzJSqjuUQzXz8WjJC0V_WD-8y_6wy/vi
 
 For the Shelf Row detection please refer the original [work](https://github.com/Hanqer/deep-hough-transform) 
 with [this](https://drive.google.com/file/d/1P68u_GcaCO1D3fH9eFGBobBorKMba1bk/view?usp=drive_link) trained model.
-Dataset con be found [here](https://figshare.com/s/3cc44298812b0427aa05)
+Dataset con be found [here](https://figshare.com/articles/dataset/SHARD_-_SHelf_mAnagement_Row_Dataset/24100695)
 
-Download the SHAPE dataset [here](https://figshare.com/s/b01927345ae41c1f20fa) and unzip in the main folder. _training_set_ and _test_set_ should contain directly
+Download the SHAPE dataset [here](https://figshare.com/articles/dataset/SHAPE_-_SHelf_mAnagement_Product_datasEt/24100704) and unzip in the main folder. _training_set_ and _test_set_ should contain directly
 the category folders (numbered), inside each category folder there are the EAN folders (masked, so 1,2,3 again) which
 represent the labels for the images in each folder.
 
