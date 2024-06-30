@@ -4,6 +4,8 @@ Dataset and Codebase for "Shelf Management: a Deep Learning-Based system for she
 
 [Paper](https://doi.org/10.1016/j.eswa.2024.124635)
 
+![flow](https://github.com/rokopi-byte/shelf_management/assets/23717373/068908ee-70c6-41a2-8f08-d4c255e3339a)
+
 This code is about the recognition part. 
 
 For the detection part please refer to the original 
