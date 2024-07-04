@@ -42,3 +42,19 @@ Tensorboard callback is used to monitor the training process.
 
 Optionally with argument _--gallery_embeddings_ is possible to provide a pickle file containing the gallery embeddings.
 If not provided are computed on the fly and stored in a embeddings.pickle file locally.
+
+```
+@article{PIETRINI2024124635,
+title = {Shelf Management: A deep learning-based system for shelf visual monitoring},
+journal = {Expert Systems with Applications},
+volume = {255},
+pages = {124635},
+year = {2024},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2024.124635},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417424015021},
+author = {Rocco Pietrini and Marina Paolanti and Adriano Mancini and Emanuele Frontoni and Primo Zingaretti},
+keywords = {Shelf management, Retail, Shelf monitoring, SKU recognition, Planogram compliance, Planogram},
+abstract = {Shelf monitoring plays a key role in optimizing retail shelf layout, enhancing the customer shopping experience and maximizing profit margins. The process of automating shelf audit involves the detection, localization and recognition of objects on store shelves, including diverse products with varying attributes in unconstrained environments. This facilitates the assessment of planogram compliance. Accurate product localization within shelves requires the identification of specific shelf rows. To address the current technological challenges, we introduce “Shelf Management”, a deep learning-based system that is carefully tailored to redesign shelf monitoring practices. Our system can navigate the complexities of shelf monitoring by using advanced deep learning techniques and object detection and recognition models. In addition, a complex semantic module enhances the accuracy of detecting and assigning products to their designated shelf rows and locations. In particular, we recognize the lack of finely annotated datasets at the SKU level. As a contribution to the field, we provide annotations for two novel datasets: SHARD (SHelf mAnagement Row Dataset) and SHAPE (SHelf mAnagement Product dataset). These datasets not only provide valuable resources, but also serve as benchmarks for further research in the field of retail. A complete pipeline is designed using a RetinaNet architecture for object detection with 0.752 mAP, followed by a Deep Hough transform to detect shelf rows as semantic lines with an F1 score of 97%, and a product recognition step using a MobileNetV3 architecture trained with triplet loss and used as a feature extractor together with FAISS for fast image retrieval with an accuracy of 93% on top-1 recognition. Localization is achieved using a deterministic approach based on product detection and shelf row detection. Source code and datasets are available at https://github.com/rokopi-byte/shelf_management.}
+}
+```
