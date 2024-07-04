@@ -43,6 +43,8 @@ Tensorboard callback is used to monitor the training process.
 Optionally with argument _--gallery_embeddings_ is possible to provide a pickle file containing the gallery embeddings.
 If not provided are computed on the fly and stored in a embeddings.pickle file locally.
 
+### Cite
+
 ```
 @article{PIETRINI2024124635,
 title = {Shelf Management: A deep learning-based system for shelf visual monitoring},
