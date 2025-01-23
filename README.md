@@ -12,8 +12,7 @@ For the detection part please refer to the original
 [work](https://github.com/eg4000/SKU110K_CVPR19) 
 with [this](https://drive.google.com/file/d/1f9tRzJSqjuUQzXz8WjJC0V_WD-8y_6wy/view?usp=sharing) trained model. 
 
-For the Shelf Row detection please refer the original [work](https://github.com/Hanqer/deep-hough-transform) 
-with [this](https://drive.google.com/file/d/1P68u_GcaCO1D3fH9eFGBobBorKMba1bk/view?usp=drive_link) trained model.
+For the Shelf Row detection please refer the original [work](https://github.com/Hanqer/deep-hough-transform).
 Dataset con be found [here](https://figshare.com/articles/dataset/SHARD_-_SHelf_mAnagement_Row_Dataset/24100695)
 
 Download the SHAPE dataset [here](https://figshare.com/articles/dataset/SHAPE_-_SHelf_mAnagement_Product_datasEt/24100704) and unzip in the main folder. _training_set_ and _test_set_ should contain directly
